@@ -38,4 +38,31 @@ nav li {
   display: inline-block;
   margin-left: 100px;
   padding-top: 20px;
+  position: relative;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15 px;
+}
+
+nav a:hover {
+  color: #061aca;
+}
+
+nav a:before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #061aca;
+  width: 0%;
+  position: absolute;
+  top: 15px;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%
 }
