@@ -169,6 +169,9 @@ nav a:hover::before {
   color: white;
   margin-right: 70px;
   margin-top: 20px;
+  margin-bottom: 60px;
+  animation: fadeIn 1.5s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .fa:hover {
