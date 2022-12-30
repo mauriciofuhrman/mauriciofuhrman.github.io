@@ -134,11 +134,14 @@ nav a:hover::before {
   list-style-type: square; 
   padding: 0;
   text-align: left;
-  width: 600px; 
   padding-left: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .information li {
-  margin-bottom: 10px; 
+  font-family:'Courier New', Courier, monospace;
+  margin-bottom: 30px; 
+  font-size: 18px;
+  font-weight: bold;
+  color: #3b417a;
 }
