@@ -6,7 +6,6 @@
 }
 
 .container {
-  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -14,7 +13,7 @@
 
 .header {
   width: 100%;
-  background: #ca0606;
+  background: #2f76e8;
 }
 
 .header::after {
@@ -60,14 +59,14 @@ nav a {
 }
 
 nav a:hover {
-  color: #061aca;
+  color: #ca0606;
 }
 
 nav a:before {
   content: "";
   display: block;
   height: 5px;
-  background-color: #061aca;
+  background-color: #ca0606;
   width: 0%;
   position: absolute;
   top: 15px;
@@ -122,6 +121,13 @@ nav a:hover::before {
 .information img:hover {
   border: 4px solid #ca0606;
 }
+
+.information h3,
+.information ul {
+  animation: fadeIn 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 .information h3 {
   font-family: "Playfair Display", serif;
   font-size: 18px;
@@ -131,7 +137,7 @@ nav a:hover::before {
 }
 
 .information ul {
-  list-style-type: square; 
+  list-style-type: square;
   padding: 0;
   text-align: left;
   padding-left: 15px;
@@ -139,9 +145,37 @@ nav a:hover::before {
 }
 
 .information li {
-  font-family:'Courier New', Courier, monospace;
-  margin-bottom: 30px; 
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 30px;
   font-size: 18px;
   font-weight: bold;
-  color: #3b417a;
+  color: #2f76e8;
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.fa {
+
+  transform: scale(1.8);
+  padding: 7px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #2f76e8;
+  color: white;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
