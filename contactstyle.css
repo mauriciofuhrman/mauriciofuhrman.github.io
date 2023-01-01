@@ -80,10 +80,9 @@ nav a:hover::before {
 .non-header {
   font-size: 50px;
   position: relative;
-  display: flex; 
+  display: flex;
   justify-content: center;
   margin-top: 50px;
-  
 }
 
 .non-header,
@@ -97,7 +96,6 @@ input {
 .non-header .background {
   position: absolute;
   min-height: 100vh;
-
 }
 
 .non-header .container {
@@ -225,14 +223,14 @@ input {
 
 .app-form-control {
   background: none;
+  width: 200px;
   border: none;
   border-bottom: 1px solid #666;
   color: #ddd;
   outline: none;
   transition: border-color 0.2s;
-
+  word-break: break-all;
 }
-
 
 .app-form-control::placeholder {
   color: #666;
