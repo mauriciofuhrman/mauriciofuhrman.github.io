@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 .header {
   width: 100%;
   background: #2f76e8;
@@ -88,7 +87,6 @@ nav a:hover::before {
 }
 
 .information img {
-  display: block;
   width: 200px;
   height: auto;
   margin: 0 auto;
@@ -165,9 +163,6 @@ nav a:hover::before {
   margin-bottom: 60px;
   animation: fadeIn 1.5s ease-in-out;
   animation-fill-mode: forwards;
-  
-  
-
 }
 
 .social-links a:hover {
@@ -178,7 +173,7 @@ nav a:hover::before {
   margin-right: 100px;
 }
 
-.social-links .fa-envelope{
+.social-links .fa-envelope {
   margin-left: 100px;
 }
 form {
@@ -202,3 +197,33 @@ button {
 button:hover {
   background-color: #444;
 }
+
+.experiences {
+  display: flex;
+  font-family: "Playfair Display", serif;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logos {
+  display: flex;
+  transform: scale(1.4);
+  flex-direction: row;
+  animation: fadeIn 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logos img {
+  height: 50px;
+  margin-left: 30px;
+}
+
+.logos .fa-amazon {
+  background: #ffd500;
+  margin-top: 13px;
+  margin-right: 20px;
+}
+
